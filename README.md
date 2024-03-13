@@ -1,7 +1,7 @@
-# JummBox
+# NaitBox
 
-JummBox is an online tool for sketching and sharing instrumental music.
-Try it out [here](jummbus.bitbucket.io)!
+NaitBox is an online tool for sketching and sharing instrumental music.
+Try it out [here](Joaolucasgatinho.bitbucket.io)!
 It is a modification of the [original BeepBox](https://beepbox.co), focused on improving ease-of-use.
 
 All song data is packaged into the URL at the top of your browser. When you make
@@ -12,7 +12,7 @@ song!
 BeepBox, and JummBox by extension, are passion projects and will always be free to use. If you find it
 valuable and have the means, please support the original creator, [John Nesky](http://www.johnnesky.com/), via
 [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=QZJTX9GRYEV9N&currency_code=USD)!
-JummBox is developed by [Jummbus](http://www.twitter.com/jummbus).
+NaitBox is developed by [Joaolucasgatinho].
 
 ## Compiling
 
@@ -24,13 +24,13 @@ The source code is available under the MIT license. The code is written in
 build this project, open the command line and run:
 
 ```
-git clone https://github.com/jummbus/jummbox.git
-cd jummbox
+git clone https://github.com/Joaolucasgatinho/naitbox.git
+cd naitbox
 npm install
 npm run build
 ```
 
-JummBox makes a divergence from BeepBox that necessitates an additional dependency:
+NaitBox makes a divergence from BeepBox that necessitates an additional dependency:
 rather than using the (rather poor) default HTML select implementation, the custom
 library [select2](https://select2.org) is employed. select2 has an explicit dependency
 on [jQuery](https://jquery.com) as well, so you may need to install the following
@@ -46,7 +46,7 @@ npm install @types/jquery
 
 The code is divided into several folders. This architecture is identical to BeepBox's.
 
-The [synth/](synth) folder has just the code you need to be able to play JummBox
+The [synth/](synth) folder has just the code you need to be able to play
 songs out loud, and you could use this code in your own projects, like a web
 game. After compiling the synth code, open website/synth_example.html to see a
 demo using it. To rebuild just the synth code, run:
